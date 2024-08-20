@@ -1,0 +1,88 @@
+.nodisplay{
+    display: none;
+}
+
+body{
+    background-color: white;
+}
+
+.form{
+    margin-top:40px;
+    background-color:white;
+}
+
+.button{
+    width:90%;
+    margin-left:5%;
+    height:35px;
+    margin-top: 30px;
+}
+
+.email-caption{
+    margin-top:35px;
+    margin-left: 5%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.input-box{
+    width:90%;
+    margin-left:5%;
+    height: 30px;
+    margin-top:-15px;
+    border-width: 1px;
+    border-color: rgb(0,112,192);
+    border-radius: 10px;
+    border-top: 1px solid rgb(0,112,192);
+    padding-left: 10px;
+}
+
+.input-box:focus{
+    outline: none;
+}
+
+.caption{
+    margin-top:30px;
+    width: 90%;
+    margin-left:5%;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+.footer{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color:blue
+}
+
+.remember {
+    margin-left:5%;
+    margin-top:15px;
+}
+
+.login{
+    margin-top:30px;
+    background-color:rgb(0,112,192);
+    border: 0px solid black;
+    height: 35px;
+    cursor:pointer;
+}
+
+.checkmark{
+    margin-top:15px;
+    margin-left:40%;
+}
+
+.checkmark a{
+    text-decoration: none;
+    color:blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.logo{
+    width:80%;
+    margin-left:10%;
+}

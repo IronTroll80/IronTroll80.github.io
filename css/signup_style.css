@@ -1,0 +1,94 @@
+body{
+    background-image: linear-gradient(to right, rgb(0, 112, 192), rgb(230, 224, 224));
+}
+
+.main-box{
+    background-color: rgb(0, 112, 192) ;
+    margin-left: 15%;
+    width: 70%;
+    height: 565px;
+    margin-top: 4%;
+    border-radius: 20px;
+}
+
+.form{
+    background-color: white;
+    float:right;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.logo {
+    margin-left: 23.5%;
+    width: 52%;
+    margin-top: 60px;
+}
+
+h3{
+    width: 136px;
+    margin-left: 37.5%;
+    margin-top: 0px;
+}
+
+.thanks{
+    font-size: 13px;
+    width: 220px;
+    margin-left:30%;
+}
+.email{
+    margin-top: 20px;
+}
+
+.textbox{
+    width: 53%;
+    margin-left: 23.5%;
+    margin-top: -10px;
+    height: 25px;
+    border-radius: 3%;
+    border-style:ridge;
+    border-width: 1.2px;
+    outline: none;
+    background-color: rgb(236, 235, 235);
+    transition: 0.4s;
+}
+
+
+.password{
+    margin-top: 25px;
+}
+
+.textbox:hover, .textbox:focus{
+    border-color: rgb(0, 112, 192);
+    cursor: pointer;
+    transform: scale(1.1);
+    border-collapse: separate;
+    border-spacing: 3px;
+}
+
+.caption{
+    margin-left: 25%;
+    font-size: 15px;
+}
+
+.login-button{
+    width:53%;
+    margin-left:23.5%;
+    background-color: rgb(0, 112, 192);
+    color:white;
+    font-weight: bold;
+    margin-top: 30px;
+    height: 45px;
+    border-style:none;
+    outline:none;
+    cursor:pointer;
+}
+
+a{
+    color:rgb(0, 112, 192)
+}
+
+.footer{
+    width:45%;
+    margin-left:30%
+}
